@@ -1,0 +1,125 @@
+body {
+  font-family: cursive;
+  background-color: rgb(246, 249, 213);
+}
+.container {
+  /* border: 2px solid rgb(214, 37, 37); */
+}
+.title {
+  font-size: 25px;
+  text-align: center;
+  /* border: 2px solid rgb(214, 37, 37); */
+  background-color: rgb(77, 175, 255);
+  color: white;
+  border: 2px solid rgb(12, 142, 249);
+  border-radius: 5px;
+  margin-bottom: 7px;
+}
+.body-part {
+  display: flex;
+}
+.registration-details {
+  /* display: flex; */
+  flex: left;
+  border: 2px solid rgb(71, 172, 255);
+  width: 50%;
+
+  background-color: rgb(129, 198, 255);
+  border-radius: 10px;
+  margin-right: 5px;
+  /* color: rgb(255, 77, 77); */
+}
+.display {
+  /* display: flex; */
+  flex: right;
+  /* border: 2px solid rgb(214, 37, 37); */
+
+  width: 50%;
+}
+.display-title {
+  font-size: 25px;
+  text-align: center;
+  border: 2px solid rgb(214, 37, 37);
+  background-color: rgb(255, 106, 106);
+  color: white;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.display-box {
+  display: flex;
+  border: 2px solid rgb(214, 37, 37);
+  background-color: rgb(252, 206, 206);
+  border-radius: 10px;
+}
+.student-info {
+  flex: left;
+  /* border: 2px solid rgb(214, 37, 37); */
+  width: 60%;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 20px;
+}
+.student-image {
+  flex: right;
+  border: 2px solid rgb(214, 37, 37);
+  border-radius: 5px;
+  /* margin-right: 0px; */
+}
+.user-box {
+  margin: 7px 7px 7px 7px;
+}
+.name-input {
+  margin-left: 45px;
+  border-radius: 4px;
+}
+.email-input {
+  margin-left: 44px;
+  border-radius: 4px;
+}
+.website-input {
+  margin-left: 20px;
+  border-radius: 4px;
+}
+.image-link-input {
+  margin-left: 2px;
+  border-radius: 4px;
+}
+#Male {
+  margin-left: 30px;
+}
+#java {
+  margin-left: 42px;
+}
+#submitButton {
+  width: 130px;
+  height: 40px;
+  font-size: 15px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  font-family: cursive;
+  background-color: rgb(77, 175, 255);
+  color: white;
+  border: rgb(77, 175, 255);
+  border-radius: 10px;
+}
+#submitButton:hover {
+  background-color: #4caf50; /* Green */
+  color: white;
+}
+#clearButton {
+  width: 130px;
+  height: 40px;
+  font-size: 16px;
+  font-family: cursive;
+  background-color: rgb(255, 77, 77);
+  color: white;
+  border: rgb(255, 77, 77);
+  border-radius: 10px;
+}
+#clearButton:hover {
+  background-color: #4caf50; /* Green */
+  color: white;
+}

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Student Enrollment Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">Student Enrollment Form</div>
+      <div class="body-part">
+        <div class="registration-details">
+          <form>
+            <div class="user-box">
+              <label
+                >Name<input
+                  type="text"
+                  name=""
+                  required=""
+                  class="name-input"
+                  id="nameInput"
+              /></label>
+            </div>
+            <div class="user-box">
+              <label
+                >Email
+                <input
+                  type="text"
+                  name=""
+                  required=""
+                  class="email-input"
+                  id="emailInput"
+                />
+              </label>
+            </div>
+            <div class="user-box">
+              <label
+                >Website
+                <input
+                  type="text"
+                  name=""
+                  required=""
+                  class="website-input"
+                  id="websiteInput"
+                />
+              </label>
+            </div>
+            <div class="user-box">
+              <label
+                >Image Link
+                <input
+                  type="text"
+                  name=""
+                  required=""
+                  class="image-link-input"
+                  id="imageInput"
+                />
+              </label>
+            </div>
+            <div class="user-box">
+              <label>Gender</label>
+              <input type="radio" id="Male" value="Male" />
+              <label for="html">Male</label>
+              <input type="radio" id="Female" value="Female" />
+              <label for="html">Female</label><br />
+            </div>
+            <div class="user-box">
+              <label>Skills</label>
+              <input type="checkbox" id="java" value="java" />
+              <label for="html">Java</label>
+              <input type="checkbox" id="html" value="html" />
+              <label for="html">HTML</label>
+              <input type="checkbox" id="css" value="css" />
+              <label for="html">CSS</label>
+            </div>
+          </form>
+          <div class="form-footer">
+            <button onclick="submitFunction()" type="button" id="submitButton">
+              Enroll Student
+            </button>
+            <button onclick="clearFunction()" type="button" id="clearButton">
+              Clear
+            </button>
+          </div>
+        </div>
+        <div class="display">
+          <div class="display-title">Enrolled Students</div>
+          <div class="display-box" id="studentColumn">
+            <div class="student-info">
+              <b
+                ><div class="student-name" id="studentName">
+                  <!-- John Doe -->
+                </div></b
+              >
+              <div class="student-gender" id="studentGender">
+                <!-- Male -->
+              </div>
+              <div class="student-email" id="studentEmail">
+                <!-- john.doe@gmail.com -->
+              </div>
+              <div class="student-website" id="studentWebsite">
+                <!-- www.johndoe.com -->
+              </div>
+              <div class="skills" id="studentSkills">
+                <!-- Java, HTML -->
+              </div>
+            </div>
+            <div class="student-image">
+              <img
+                src="https://png.pngtree.com/png-vector/20190118/ourlarge/pngtree-vector-male-student-icon-png-image_326762.jpg"
+                alt="Student Photo"
+                width="150"
+                height="150"
+                id="studentImage"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
